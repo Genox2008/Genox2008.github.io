@@ -1,0 +1,41 @@
+.main {
+  background: linear-gradient(to top right, rgba(0,0,0,1), rgba(102,58,0,1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  color: white;
+}
+
+.pagetitle {
+	border-radius: var(--border-radius);
+	padding: 0.75rem 20rem;
+	box-shadow: 14px 14px rgba(0,0,0,0.3);
+	border: 1px solid rgba(255,144,0,1);
+	background: rgba(255,144,0,0.1);
+}
+
+.text {
+	border-radius: var(--border-radius);
+	padding: 0.75rem 20rem;
+	box-shadow: 14px 14px rgba(0,0,0,0.3);
+	background: rgba(255,144,0,0.1);
+}
+
+.gif {
+
+	border-radius: var(--border-radius);
+	border: 12px solid rgba(0,0,0,0.2);
+	transition: border 200ms;
+
+	width: 490;
+	height: 330;
+	margin: 0.75rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.gif:hover {
+		border: 6px solid rgba(255,144,0,1);
+	}
+}
