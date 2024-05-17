@@ -114,11 +114,13 @@
   }
 
   .centerText {
+    width: 40rem;
     filter: blur(0px);
     transform: scale(0.8,0.8);
     background: rgba(255,144,0, 0.1);
-
+    padding: 1.4rem 5rem;
     box-shadow: 20px 20px rgba(0,0,0,0.3);
+    white-space: normal;
   }
 
 
@@ -127,9 +129,14 @@
     margin-bottom: 120px;
     max-width: 320px;
     text-align: center;
+    flex-direction: column;
   }
 
   .card {
+    margin: 1rem;
+    box-shadow: 16px 16px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,144,0, 1);
+    background: rgba(255,144,0, 0.1);
     padding: 1rem 2.5rem;
   }
 

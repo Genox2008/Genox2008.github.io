@@ -40,3 +40,13 @@
 		border: 6px solid rgba(255,144,0,1);
 	}
 }
+
+@media (max-width: 700px) {
+  .gif {
+	  border-radius: var(--border-radius);
+	  border: 12px solid rgba(0,0,0,0.2);
+	  width: 22rem;
+	  height: 15rem;
+	  margin: 0.75rem;
+  }  
+}
