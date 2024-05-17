@@ -62,7 +62,7 @@ export default function Projects() {
 				>
           </a>
 				Porydelete was meant to be a CLI tool to cleanup your 3rd Gen. decomp project. However, because it <br></br>
-			        edits the code, there are so many cases where my tool would brake something! So I decided to stop working on it.<br></br>
+			        edits the code, there are so many cases where my tool would breake something! So I decided to stop working on it.<br></br>
 				But still, it was an important step to be a better programmer, because it was my first Rust project!<br></br><br></br><br></br>
 
 				
