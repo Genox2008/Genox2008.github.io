@@ -18,6 +18,7 @@
 }
 
 .centerText {
+  margin: 6rem;
   border-radius: var(--border-radius);
   padding: 1.4rem 2rem;
   background: rgba(0,0,0,0);
